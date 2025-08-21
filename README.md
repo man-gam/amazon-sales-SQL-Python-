@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 3️⃣ Configure SQL Connection
 
-Open src/etl_pipeline.py (or your Python script)
+Open Data Cleaning_Amazon-Sales.py (or your Python script)
 
 Update your SQL Server credentials:
 
@@ -75,13 +75,13 @@ password = 'YOUR_PASSWORD'
 
 4️⃣ Run the ETL Pipeline
 ```bash
-python src/etl_pipeline.py
+python Data Cleaning_Amazon-Sales.py
 
 5️⃣ Run SQL Analysis
 
 Open your SQL client (e.g., SQL Server Management Studio)
 
-Execute queries in sql/analysis_queries.sql to generate insights:
+Execute queries in sql/Data Analysis_Amazon-Sales.sql to generate insights:
 
 Top products by revenue
 
