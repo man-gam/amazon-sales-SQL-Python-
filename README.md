@@ -51,7 +51,7 @@ The project demonstrates a full **ETL + Analytics workflow**:
 
 ## 🔹 How to Run This Project
 
-### 1️⃣ Clone the Repository
+   1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/amazon-sales-analysis.git
 cd amazon-sales-analysis
