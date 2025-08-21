@@ -29,6 +29,30 @@ The project demonstrates a full **ETL + Analytics workflow**:
 4. **Category-wise highest sales month**  
 5. **Sub-category with highest profit growth (2023 vs 2022)**  
 
+## 🔹 Challenges & Solutions
+
+This project involved several challenges which helped demonstrate problem-solving and technical skills:
+
+1. **Data Collection & Access**
+   - Challenge: Pulling data via Kaggle API and ensuring consistent dataset versions.
+   - Solution: Configured Kaggle API keys and downloaded dataset programmatically.
+
+2. **Data Cleaning**
+   - Challenge: Handling missing/null values in critical columns and standardizing date formats.
+   - Solution: Used Python (Pandas) to fill missing values, drop irrelevant columns, and convert `order_date` to datetime.
+
+3. **ETL & SQL Loading**
+   - Challenge: Duplicate `order_id` values causing primary key conflicts during insertion.
+   - Solution: Identified and removed duplicates before loading data into SQL Server.
+
+4. **SQL Analysis**
+   - Challenge: Writing complex queries (CTEs, Window Functions) for top-N analysis and month-over-month comparisons.
+   - Solution: Created modular queries with CTEs and window functions for accurate insights.
+
+5. **Business Insights**
+   - Challenge: Translating raw sales data into actionable insights.
+   - Solution: Generated reports on top products, regional trends, seasonal patterns, and profit growth, and recommended business strategies.
+
 ---
 
 ## 🔹 Insights
