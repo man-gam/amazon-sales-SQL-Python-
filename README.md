@@ -47,50 +47,7 @@ The project demonstrates a full **ETL + Analytics workflow**:
 4. **Category campaigns** — maximize revenue by focusing on category-specific peak months.  
 5. **Profit growth strategy** — invest in high-growth sub-categories, re-evaluate pricing for lagging ones.  
 
----
 
-## 🔹 How to Run This Project
 
-   1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/amazon-sales-analysis.git
-cd amazon-sales-analysis
-
-### 2️⃣ Install Dependencies
-```bash
-Make sure you have Python installed, then run:
-
-pip install -r requirements.txt
-
-3️⃣ Configure SQL Connection
-
-Open Data Cleaning_Amazon-Sales.py (or your Python script)
-
-Update your SQL Server credentials:
-
-server = 'YOUR_SERVER_NAME'
-database = 'YOUR_DATABASE_NAME'
-username = 'YOUR_USERNAME'
-password = 'YOUR_PASSWORD'
-
-4️⃣ Run the ETL Pipeline
-```bash
-python Data Cleaning_Amazon-Sales.py
-
-5️⃣ Run SQL Analysis
-
-Open your SQL client (e.g., SQL Server Management Studio)
-
-Execute queries in sql/Data Analysis_Amazon-Sales.sql to generate insights:
-
-Top products by revenue
-
-Best-selling products by region
-
-Month-over-month sales comparison
-
-Category-wise peak months
-
-Sub-category profit growth
 
 
